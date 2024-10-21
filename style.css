@@ -1,0 +1,171 @@
+body{
+    margin: 0;
+    background-image: radial-gradient(circle at 24% 76%, hsl(104,100%,97%) 0%, hsl(104,100%,97%) 22%,transparent 22%, transparent 100%),radial-gradient(circle at 76% 76%, hsl(104,100%,97%) 0%, hsl(104,100%,97%) 22%,transparent 22%, transparent 100%),radial-gradient(circle at 76% 24%, hsl(104,100%,97%) 0%, hsl(104,100%,97%) 22%,transparent 22%, transparent 100%),radial-gradient(circle at 24% 24%, hsl(104,100%,97%) 0%, hsl(104,100%,97%) 22%,transparent 22%, transparent 100%),radial-gradient(circle at center center, rgb(11, 211, 84) 0%, rgb(11, 211, 84) 71%,transparent 71%, transparent 100%),linear-gradient(90deg, hsl(104,100%,97%),hsl(104,100%,97%)); background-size: 38px 38px;
+text-shadow: 2px 2px 5px rgb(64, 64, 65);
+}
+
+header{
+    padding-top: 300px;
+    background-image: url("https://i.ibb.co/1QKC63Q/image-4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    color: #FFFA8D;
+    font-size: 45px;
+    -webkit-text-stroke: 1px black;
+    margin-bottom: 0;
+}
+
+main{
+    margin-top: 0;
+}
+
+.info{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.info h1{
+font-size: 55px;
+
+}
+.info p, .info ul{
+    font-size: 40px;
+}
+
+.info-text{
+    width: 60%;
+    text-shadow: 2px 2px 5px rgb(64, 64, 65);
+}
+
+.catalog h2{
+    font-size: 55px;
+    text-align: center;
+}
+
+.all-divs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.catalog-div{
+    width: 300px;
+    margin: 20px;
+}
+
+.catalog-div h3{
+    font-size: 35px;
+    height: 70px;
+}
+
+.catalog-text{
+    font-size: 30px;
+    height: 220px;
+}
+
+.sallary{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.recall h2 {
+    text-align: center;
+    font-size: 55px;
+}
+
+.recall-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 70px;
+    text-align: justify;
+}
+
+.recall-div p {
+    width: 927px;
+    color: #000;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.recall-img {
+    width: 190px;
+    height: 190px;
+}
+
+.contacts h2{
+    text-align: center;
+    font-size: 55px;
+}
+.map{
+    display: flex;
+    justify-content: center;
+}
+
+.contacts-div h2{
+    text-align: center;
+    font-size: 45px;
+}
+
+.contacts-div p{
+    font-size: 35px;
+}
+
+.contacts-row-1{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contacts-row-2{
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    background-color: #C4C4C4;
+    display: flex;
+    justify-content: space-around;
+}
+.phone-number{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.phone{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 50%;
+}
+
+.phone p {
+    font-size: 30px;
+}
+
+.footer-info{
+    float: right;
+    width: 220px;
+    color: #000;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-right: 70px;
+}
+
+.image-right{
+    width: 74px;
+    float: right;
+}
+
+.image-left{
+    width: 74px;
+    float: left;
+}
